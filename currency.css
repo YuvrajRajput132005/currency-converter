@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: aquamarine;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container{
+    background-color: aliceblue;
+   
+    border-radius: 15px;
+    width:350px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    height:390px;
+    align-items: center;
+    gap:1rem;
+    
+    
+    
+    
+
+}
+.select-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+form select,button{
+    width:100%;
+    justify-content: space-between;
+}
+.dropdown{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+    justify-content: space-between;
+    display:flex;
+    align-items: center;
+    margin-top: 1rem;
+    
+    
+}
+
+i{
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 17px;
+    margin-bottom: 8px;
+}
+select[name="from"]{
+    /*position: relative;
+    top: -25px;*/
+    padding:2px 4px;
+    height:25px;
+    margin-left: 0.5rem;
+    
+    
+}
+select[name="To"]{
+    /*position: relative;
+    top: -25px;*/
+    margin-left: 0.5rem;
+    padding:2px 4px;
+    height:25px;
+}
+button{
+    margin-top: 20px;
+}
+form select,button, input{
+    width:100%;
+    border:none;
+    border-radius: 0.5rem;
+    outline: none;
+    border:1px solid lightgrey;
+    height:1.5rem;
+}
+ form button{
+    height:2.5rem;
+    background-color: blueviolet;
+    color: antiquewhite;
+    font-size: 1rem;
+    cursor:pointer;
+    
+ }
+ .amount{
+    margin-bottom: 30px;
+ }
